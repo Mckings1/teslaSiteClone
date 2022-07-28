@@ -59,19 +59,8 @@ header{
     font-weight: 600;
 }
 
-.first_sec{
-   
-    background-image: url(images/redCar.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* width: 100%; */
-    /* background-color: blue; */
-    
-    
-}
-.second_sec{
-    background-image: url(images/blueCar.jfif);
+
+section{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -89,7 +78,7 @@ header{
     
 }
 .model3{
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 50vh;
     /* background-color: red; */
     /* display: block; */
