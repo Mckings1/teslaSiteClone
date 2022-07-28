@@ -7,9 +7,10 @@
 
 }
 
-#header{
+header{
     position: fixed;
     width: 100%;
+
 }
 
 .nav1{
@@ -18,18 +19,17 @@
     height: 50px;
     cursor: pointer;
     background-color: white;
-
+    /* position: fixed;
+    width: 100%; */
 }
-
 
 .logo_div{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     display: flex;
-    /* justify-content: baseline; */
     height: 50px;
-    
+    /* position: fixed;
+    width: 100%; */
 }
-
 #teslaLogo{
     height: 30px;
     margin-left: 30px;
@@ -39,24 +39,18 @@
 
 .span_middle{
     display: flex;
-    /* background-color: red; */
-    /* align-items: center; */
-    /* text-align: center; */
     padding: 15px;
     
 }
 
 .span_middle li{
     margin-right: 30px;
-    /* font-weight: bold; */
     font-weight: 600;
 }
 
 .span_right{
     display: flex;
-    /* float: right; */
     align-items: center;
-    /* background-color: yellow; */
     margin-left: 10vw;
     padding: 5px;
 }
@@ -65,53 +59,61 @@
     font-weight: 600;
 }
 
-.redcar{
+.first_sec{
+   
+    background-image: url(images/redCar.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* width: 100%; */
+    /* background-color: blue; */
     
-    /* position: relative; */
+    
+}
+.second_sec{
+    background-image: url(images/blueCar.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.static_model3{
+    text-align: center;
+    /* position: fixed; */
     width: 100%;
+    /* background-color: yellow; */
+    /* display: block; */
     /* margin-top: 50px; */
-    z-index: -1;
+    padding: 10px;
+
+    
 }
 .model3{
-    text-align: center;
-    position: relative;
-    width: 100%;
-    /* position: fixed; */
-    margin-top: 120px;
-    z-index: 1;
+    margin-top: 20vh;
+    margin-bottom: 50vh;
+    /* background-color: red; */
+    /* display: block; */
+    padding: 10px;
     
 }
 
-.bttn1 {
-    text-align: center;
-   margin-left: 30px;
-   margin: auto;
-   margin-top: 45vh;
-}
-a.btn{
-    border-radius: 20px;
-    padding: 5px;
-    width: 250px;
-    /* text-align: center; */
-    margin: 30px 10px;
-   
 
-}
 a.btn-first{
     color: white;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 20px;
     background-color: rgba(23, 26, 32, 0.8);
+    margin-right: 20px;
+    padding: 10px;
+    width: 250px;
    
 }
 a.btn-secnd{
     background-color: rgba(244, 244, 244, 0.65);
     font-size: 12px;
     font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
 }
-.static_model3{
-    margin-top: -100vh;
-    position: fixed;
-    width: 100%;
-}
-
