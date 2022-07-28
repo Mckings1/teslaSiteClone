@@ -7,10 +7,13 @@
 
 }
 
+body{
+    font-family: 'M PLUS 1', sans-serif;
+    color: #171a20;
+}
 header{
     position: fixed;
     width: 100%;
-
 }
 
 .nav1{
@@ -19,16 +22,14 @@ header{
     height: 50px;
     cursor: pointer;
     background-color: white;
-    /* position: fixed;
-    width: 100%; */
+    border: solid 1px whitesmoke;
+
 }
 
 .logo_div{
-    /* background-color: rebeccapurple; */
     display: flex;
     height: 50px;
-    /* position: fixed;
-    width: 100%; */
+    
 }
 #teslaLogo{
     height: 30px;
@@ -68,11 +69,7 @@ section{
 
 .static_model3{
     text-align: center;
-    /* position: fixed; */
     width: 100%;
-    /* background-color: yellow; */
-    /* display: block; */
-    /* margin-top: 50px; */
     padding: 10px;
 
     
@@ -80,12 +77,9 @@ section{
 .model3{
     margin-top: 15vh;
     margin-bottom: 50vh;
-    /* background-color: red; */
-    /* display: block; */
     padding: 10px;
     
 }
-
 
 a.btn-first{
     color: white;
