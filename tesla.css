@@ -14,6 +14,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    /* display: none; */
 }
 
 .nav1{
@@ -47,6 +48,7 @@ header{
 .span_middle li{
     margin-right: 30px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .span_right{
@@ -58,9 +60,53 @@ header{
 
 .span_right li{margin-right: 40px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
+#close{
+    float: right;
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+
+    
+}
+
+.backdrop{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .35);
+    backdrop-filter: blur(5px);
+    display: none;
+}
+aside{
+    background-color: white;
+    width: 320px;
+    right: -320px;
+    float: right;
+    padding: 80px 50px;
+    height: 100vh;
+    position: fixed;
+    /* background-color: red; */
+
+
+}
+aside a{ 
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+    /* margin-left: 50px; */
+    /* background-color: rebeccapurple; */
+
+
+}
 section{
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,11 +121,12 @@ section{
     
 }
 .model3{
-    margin-top: 15vh;
+    margin-top: 18vh;
     margin-bottom: 50vh;
     padding: 10px;
     
 }
+
 
 a.btn-first{
     color: white;
@@ -99,4 +146,21 @@ a.btn-secnd{
     border-radius: 20px;
     padding: 10px;
     width: 250px;
+}
+.bottom{
+    /* margin: auto; */
+    /* background-color: rebeccapurple; */
+   
+}
+
+.bottom div{
+    padding: 10px;
+    /* border: solid 1px yellow; */
+    text-align: center;
+}
+.bottom a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    margin-right: 10px;
 }
