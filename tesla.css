@@ -24,7 +24,6 @@ header{
     cursor: pointer;
     background-color: white;
     border: solid 1px whitesmoke;
-
 }
 
 .logo_div{
@@ -39,6 +38,16 @@ header{
     margin-top: 5px;
 }
 
+
+.disappear{
+    display: none;
+}
+@media(min-width: 768px){
+    .disappear {
+        display: initial;
+
+    }
+}
 .span_middle{
     display: flex;
     padding: 15px;
@@ -117,6 +126,7 @@ section{
     text-align: center;
     width: 100%;
     padding: 10px;
+    /* z-index: -1; */
 
     
 }
@@ -163,4 +173,45 @@ a.btn-secnd{
     color: inherit;
     font-size: 14px;
     margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .first_sec, .second_sec, .third_sec, .fourth_sec, .fifth_sec, .sixth_sec {
+        width: 100% !important;
+        background-size: cover;
+        background-position: center;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 800px) {
+    .first_sec, .second_sec, .third_sec, .fourth_sec, .fifth_sec, .sixth_sec {
+        width: 100% !important;
+        background-size: cover;
+        background-position: center;
+        height: fit-content;
+    }
+    nav {
+        display: none !important;
+    } 
+    .menu_btn {
+        display: block !important;
+        float: right !important;
+        padding: 3px;
+    }
+}
+@media (max-width: 400px) {
+    .first_sec, .second_sec, .third_sec, .fourth_sec, .fifth_sec, .sixth_sec{
+        width: 100% !important;
+        background-size: cover;
+        background-position-x: center;
+        height: fit-content;
+    }
+    .sevnth_sec {
+        width: 100% !important;
+        background-size: 250%;
+        background-position: center;
+        height: fit-content;
+    }
 }
