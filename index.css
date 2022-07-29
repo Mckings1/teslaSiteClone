@@ -50,7 +50,7 @@ header{
 }
 .span_middle{
     display: flex;
-    padding: 15px;
+    padding: 10px;
     
 }
 
@@ -62,7 +62,7 @@ header{
 
 .span_right{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-left: 10vw;
     padding: 5px;
 }
